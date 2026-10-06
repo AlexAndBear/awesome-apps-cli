@@ -1,0 +1,27 @@
+{
+  "name": "@opencloud-eu/awesome-apps-cli",
+  "version": "0.1.0",
+  "description": "Download and unpack the OpenCloud awesome web apps into a folder",
+  "license": "Apache-2.0",
+  "type": "module",
+  "bin": {
+    "awesome-apps": "./bin/awesome-apps.js"
+  },
+  "//": "Example: pnpm awesome-apps /root/opencloud-compose-apps --official --clean --owner 1000:1000",
+  "scripts": {
+    "awesome-apps": "node bin/awesome-apps.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "engines": {
+    "node": ">=18.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexAndBear/awesome-apps-cli.git"
+  },
+  "dependencies": {
+    "fflate": "^0.8.3"
+  }
+}
